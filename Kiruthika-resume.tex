@@ -9,16 +9,17 @@
 
 \usepackage[utf8]{inputenc} % character encoding
 \usepackage[scale=0.8]{geometry} % adjust the page margins
-
+\usepackage{hyperref}
 \AtBeginDocument{\setlength{\maketitlenamewidth}{10cm}}
 \AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
 
 % personal data
 \firstname{Kiruthika}
 \familyname{Somasundaram}
-\address{Melbourne}{Victoria}
+\address{Melbourne}{}
 \phone{+61-436 420 832}
 \email{kiru.somasundaram@gmail.com}
+
 % \photo[64pt]{picture}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file;
 
 % --------------------------------------
@@ -30,10 +31,9 @@
 
 \section{Summary}
 \linebreak
-\cvlistitem{\textit{AWS Certified Devops Engineer} with 6 years of experience in automation and operations. }
-\cvlistitem{Seeking to leverage proven CI/CD skills to design and develop applications in Cloud. }
-\cvlistitem{Containerised Tibco microservices in Kubernetes and docker to maintain 99\% availability. }
-\cvlistitem{Reduced the turnaround time of support requests by 55\% through ansible and Jenkins orchestration. }
+\cvlistitem{\textit{AWS Certified Devops Engineer} with 6 years of experience in automation and operations }
+\cvlistitem{Deployed highly available applications in cloud using Kubernetes, Docker and CI/CD tools }
+\cvlistitem{Organized technical forums to educate developers to promote code effectively}
 \linebreak
 \section {Certification}
 \linebreak
@@ -42,64 +42,64 @@
 \linebreak
 \section{Technical skills}
 \linebreak
-\cvlistitem{\textsc{Infrastructure - }{AWS, Oracle Cloud, Linux, Solaris, Windows} }
+\cvlistitem{\textsc{Cloud - }{ AWS, Oracle Cloud} }
+\cvlistitem{\textsc{Operating System - }{ Linux, Solaris, Windows} }
 \cvlistitem{\textsc{AWS - }{EC2, S3, Cloudformation, SNS, SQS, Firehose, IAM} }
 \cvlistitem{\textsc{CI/CD - }{Jenkins, Ansible, Bamboo, Bitbucket, GIT, RTC, Artifactory} }
-\cvlistitem{\textsc{Contarization - }{Docker, Kubernetes} }
+\cvlistitem{\textsc{Containerization - }{Docker, Kubernetes} }
 \cvlistitem{\textsc{Programming - }{Python, Shell, PHP, Javascript, CSS} }
 \cvlistitem{\textsc{Monitoring - }{Splunk, Grafana, Prometheus} }
 \cvlistitem{\textsc{Ticketing - }{JIRA, BMC Remedy} }
-\cvlistitem{\textsc{Server Side Technologies - }{Haproxy} }
-\cvlistitem{\textsc{Soft Skills - }{Haproxy} }
+\cvlistitem{\textsc{Server Side Technology - }{Haproxy} }
 \linebreak
 \subsection{Soft Skills}
-\cvlistitem{Client Engagement, Consulting, Solution Design, Technical Architecture, Collaboration, Stewardship}
+\cvlistitem{Client Engagement, Stewardship, Communication, Troubleshooting, Creative Design, Presentation, Root cause Analysis   }
 % --------------------------------------
 % WORK EX
 % --------------------------------------
 
 \section{Work Experience and Positions}
-\linebreak
-\cventry{2017 -- Present}{Accenture Australia}{Devops Engineer/Senior Analyst}{}{}{}
-\linebreak
- \cvlistitem{Developing one click deployment using Ansible, Jenkins, Lambda and Aurora which will potentially reduce the service request inflow by 45\%}
- \cvlistitem{Maintaining CI/CD pipeline for 200 users through Jenkins and Git for an Enterprise splunk platform}
- \cvlistitem{Provisioning EC2 instances for various use cases using cloudformation templates.}
- \cvlistitem{Working with SNS, SQS, Firehose to send 80TB of data reliably from AWS S3 to Splunk }
-
-\cvlistitem{Managed tibco microservices running on docker, orchestrated in kubernetes with 99\% availability.}
-\cvlistitem{Built automation and monitoring framework using Python, Prometheus, Grafana}
-\cvlistitem{Managed CI/CD pipeline in Bamboo and Bitbucket for 6 environments}
-\cvlistitem{Proficient in writing yaml for microservices deployments, services and custom access control for the cluster. 
-}
-\cvlistitem{Worked on server side technology HAproxy to send data securely from an on-premise legacy application to cloud.}
-\cvlistitem{Solution design for disaster recovery and fixing application’s security vulnerabilities for a high volume (16k user base) RCRM application. }
-\cvlistitem{Managed a team of 3 to build an in-house monitoring solution in Splunk that helps business and other key stakeholders across the platform health. }
-\linebreak
+\cventry{2017 -- Present}{Accenture Australia}{Devops Engineer}{}{}{}
 \subsection{\textbf{Key Achievements}}
-\linebreak
-\cvlistitem{Automation jobs resulted in a 55\% decrease in turnaround time for certain service requests. }
-\cvlistitem{Client appreciation for excellent product knowledge, hard work, support and dedication while delivering disaster recovery solution for a large scale RCRM application}
-\cvlistitem{Managed to resolve critical issues that arose in the kubernetes platform to ensure 99\% availability}
+\cvlistitem{Created automation scripts that decreased the processing time of service requests by 45\% }
+\cvlistitem{Received client appreciation for excellent product knowledge, hard work, support and dedication}
+
+\subsection{}
+\subsection{\textbf{Project Experience}}
+ \cvlistitem{Developed one click deployment using Ansible, Jenkins, Lambda, Aurora and reduced the ticket inflow}
+ \cvlistitem{Maintained source code in GIT, Bitbucket for 200 users and deployment pipeline in Jenkins and Bamboo for 10 environments}
+ \cvlistitem{Provisioned EC2 instances using Cloudformation templates}
+ \cvlistitem{Worked with SNS, SQS, Firehose to send TB's of data reliably from AWS S3 to Splunk }
+\cvlistitem{Built monitoring framework using Python, Prometheus, Grafana to ensure 99\% availability of Docker containers}
+
+\cvlistitem{Scripted custom yaml definitions to effectively maintain Tibco micro-services in Kubernetes cluster}
+\cvlistitem{Designed the disaster recovery solution for a RCRM Application used by 16k users}
+\cvlistitem{Fixed application’s security vulnerabilities for a business critical application}
+\cvlistitem{Managed a team of 3 to build Splunk monitoring to keep business and other key stakeholders across the platform health }
+
 \subsection{}
 \cventry{ 2013 - 2017}{Accenture India}{Senior Analyst}{}{}{}
+
 \subsubsection{}
-\cvlistitem{Lead technical architect involved in solution design, development of hardware/software upgrade for a Retail-CRM application in Linux, solaris and windows.}
-\cvlistitem{Scripted the software upgrade and prerequisite activities in bash which enabled smooth upgradation of 10 environments.}
-\cvlistitem{Managed over 20 deployments and service requests in Jenkins, RBF and RTC on a daily basis}
-\cvlistitem{Built tools to automate day-to-day tasks in PHP and shell and saved 15 hours of manual efforts per week.}
-\cvlistitem{Effectively worked on incident/defect management and capacity assessment for a business critical application used by 16k users.}
-\cvlistitem{Worked on integration of Retail-CRM application with LDAP authentication system, Tibco middleware through JMS queues.}
-\cvlistitem{Performed Splunk dashboarding for an end to end order tracking system and onboarded data from various downstreams.}
-\subsection{}
 \subsection{\textbf{Key Achievements}}
-\cvlistitem{Appreciated by leadership for environment management and troubleshooting skills}
-\cvlistitem{Received various awards from the team for the automation initiatives which resulted in monetary client benefits. }
+\cvlistitem{Appreciated by leadership for maintaining a healthy and stable environment}
+\cvlistitem{Received awards for automation initiatives which resulted in monetary client benefits }
+\cvlistitem{Volunteered in local community centers to teach kids about basics of programming }
+\subsection{}
+\subsection{Project Experience}
+\cvlistitem{Performed solution design for upgrading a RCRM application in Linux, Solaris and Windows}
+\cvlistitem{Scripted and uplifted over 15 environments automatically}
+\cvlistitem{Managed 20+ deployments and service requests in Jenkins, RBF and RTC on a daily basis}
+\cvlistitem{Automated day-to-day tasks in PHP and Shell and saved 15 hours of manual efforts per week}
+\cvlistitem{Effectively worked on incident/defect management and capacity assessment for a high volume application}
+\cvlistitem{Built Splunk dashboards for an end to end order tracking system and on-boarded data from various downstream}
+\cvlistitem{Worked on LDAP authentication, Haproxy and Integration to Tibco with JMS queues}
+\subsection{}
 
 \section{Education}
 \cventry{2009 -- 2013}{Bachelor Of Engineering}{Anna University}{Chennai}{}{}
-
-
+\cvlistitem{Graduated in first class honours with GPA of 8}
+\cvlistitem{Organized two major National Entrepreneurship Network programs which had country wide coverage}
 
 % --------------------------------------
 \end{document}
